@@ -1,0 +1,36 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the Go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Directories created by the Go toolchain
+/bin
+/pkg
+
+# Project-specific directories
+data/*.json
+
+# Dependency directories
+vendor/
+
+# Logs
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore any compiled or temporary files
+*.tmp
+*.swp
+*.swo
