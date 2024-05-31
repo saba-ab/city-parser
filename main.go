@@ -35,7 +35,7 @@ func main() {
 		Cities:           allCities,
 	}
 
-	outputFile := filepath.Join("parsed_data", "cities.json")
+	outputFile := filepath.Join("parsed_data", "streets.json")
 	if err := os.MkdirAll(filepath.Dir(outputFile), 0755); err != nil {
 		log.Fatalf("Failed to create output directory: %v", err)
 	}
